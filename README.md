@@ -2,8 +2,8 @@ Installation
 =========
 
 ## Pre-requisites
-- Make you have ```Chrome``` browser installed
-- Be sure to have ```Node JS``` installed aswell-- preferrably v16.15.1 and above
+- Make sure you have ```Chrome``` browser installed
+- Be sure to have ```Node JS``` installed as well-- preferrably v16.15.1 and above
 
 
 ## Clone this repository
@@ -11,7 +11,8 @@ Installation
 git clone https://github.com/kobenabrown/m-test.git
 ```
 
-## ```cd``` into the root folder
+## Access the root folder
+- Open the root of the project in the terminal
 
 ## Install Dependencies
 Run ``` npm install ```
