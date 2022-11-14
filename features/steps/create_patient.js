@@ -5,7 +5,7 @@ const {
   Then,
   setDefaultTimeout,
 } = require('@cucumber/cucumber');
-setDefaultTimeout(100 * 1000);
+setDefaultTimeout(10 * 1000);
 const data = require('../../test-data/test-data.json');
 const locators = require('../../locators/locators');
 const Base = require('../../pages/base');
@@ -104,7 +104,7 @@ Then(
     );
   }
 );
-Given(
+Then(
   'The browser should close',
   async function () {
     await Base.CLOSE_BROWSER();
