@@ -11,6 +11,7 @@ const service =
 
 let driver = new Builder()
   .forBrowser('chrome')
+
   .setChromeService(service)
   .build();
 class Base {

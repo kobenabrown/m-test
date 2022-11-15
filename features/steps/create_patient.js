@@ -5,7 +5,7 @@ const {
   Then,
   setDefaultTimeout,
 } = require('@cucumber/cucumber');
-setDefaultTimeout(10 * 1000);
+setDefaultTimeout(60 * 1000);
 const data = require('../../test-data/test-data.json');
 const locators = require('../../locators/locators');
 const Base = require('../../pages/base');
