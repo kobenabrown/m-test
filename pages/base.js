@@ -4,15 +4,17 @@ const {
   until,
 } = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
-const service =
-  new chrome.ServiceBuilder(
-    './drivers/chromedriver'
-  );
+// const service =
+//   new chrome.ServiceBuilder(
+//     './drivers/chromedriver'
+//   );
 
 let driver = new Builder()
   .forBrowser('chrome')
-
-  .setChromeService(service)
+  // .usingServer(
+  //   'http://localhost:4444/wd/hub/'
+  // )
+  // .setChromeService(service)
   .build();
 class Base {
   constructor() {
