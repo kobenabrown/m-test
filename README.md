@@ -1,4 +1,8 @@
-# Installation
+# Intro
+A Javascript Automated Testing Example using Cucumber, Gherkin
+ and the Behaviour Driven Development approach
+ 
+ # Installation
 
 ## Pre-requisites
 
